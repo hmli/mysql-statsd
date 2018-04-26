@@ -1,5 +1,5 @@
-mysql: guest:123456@tcp(192.168.15.95:3306)/supplier?charset=utf8
-statsd: 192.168.15.95:8125
+mysql: root:123456@tcp(localhost:3306)/test?charset=utf8
+statsd: 127.0.0.1:8125
 interval: 10
 metrics:
   - Queries
