@@ -1,0 +1,16 @@
+mysql: guest:123456@tcp(192.168.15.95:3306)/supplier?charset=utf8
+statsd: 192.168.15.95:8125
+interval: 10
+metrics:
+  - Queries
+  - Qcaches_hits
+  - Qcache_insert
+  - Qcache_not_cached
+  - Com_select
+  - Com_update
+  - Com_insert
+  - Com_lock_tables
+  - Com_delete
+  - Threads_connected
+  - Threads_running
+  - Connection_errors_max_connections
